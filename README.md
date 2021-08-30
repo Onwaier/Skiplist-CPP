@@ -6,6 +6,15 @@
   <a href="https://mp.weixin.qq.com/s/QVF6upVMSbgvZy8lHZS3CQ"><img src="https://img.shields.io/badge/知识星球-代码随想录-blue" alt=""></a>
 </p>
 
+# 修改说明
+
+1. 使用智能指针（shared_ptr）进行内存管理，避免内存泄漏
+
+2. 修复bug,参考[issue](https://github.com/youngyangyang04/Skiplist-CPP/issues/1)
+
+3. 修改接口 `insert_element`,允许修改已重复键的值
+
+4. 引入线程安全，读共享(查询和展示)，写互斥(插入和删除)
 
 # [English Version](./README-en.md)
 

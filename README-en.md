@@ -2,6 +2,11 @@
 
  A tiny KV storage based on skiplist written in C++ language
 
+# modify log
+1. Use smart pointers for memory management to avoid memory leaks
+2. Fix bug, reference to https://github.com/youngyangyang04/Skiplist-CPP/issues/1
+3. Modify the "insert_element" interface to allow modification of existing keys
+4. Introduce thread safety, read sharing, and write mutual exclusion
 # interface
 
 * insertElement
